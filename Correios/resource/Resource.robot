@@ -35,16 +35,3 @@ Conferir Localidade/UF: ${CIDADE}
 
 Conferir CEP: ${CEP}
     Page Should Contain Element       navegacao-resultado       ${CEP}
-
-Clicar no botão voltar
-    Click Button                      btn_voltar
-
-# Selecionar um item por label
-#     Sleep    1
-#     Select From List By label    tipoCEP    Caixa Postal Comunitária
-#     Click Button    btn_pesquisar
-#
-# Selecionar um item por value
-#     Sleep    2
-#     Select From List By Value     tipoCEP     GRU
-#     Click Button    btn_pesquisar
