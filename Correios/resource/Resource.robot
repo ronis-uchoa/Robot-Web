@@ -9,7 +9,7 @@ ${URL}          https://buscacepinter.correios.com.br/app/endereco/index.php
 Abrir navegador
     Open Browser                      about:blank            ${BROWSER}
 
- Fechar navegador
+Fechar navegador
      Close Browser
 
 Acessar a página home do site
