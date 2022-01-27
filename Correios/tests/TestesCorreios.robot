@@ -13,4 +13,4 @@ CT 01 - Usando o Dropdown no site dos correios
     Conferir Bairro/Distrito: "Cidade Universitária"
     Conferir Localidade/UF: "Juazeiro do Norte/CE"
     Conferir CEP: "63048-200"
-    Clicar no botão voltar
+    
