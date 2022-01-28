@@ -19,7 +19,6 @@ Digitar um cep no campo de texto
     Input Text                        endereco                63048200
 
 Selecionar um item por index
-    Sleep    1
     Select From List By Index         tipoCEP                 0
     Click Button                      btn_pesquisar
     Wait Until Element Is Visible     navegacao-resultado
@@ -35,3 +34,12 @@ Conferir Localidade/UF: ${CIDADE}
 
 Conferir CEP: ${CEP}
     Page Should Contain Element       navegacao-resultado       ${CEP}
+    Click Button                      btn_voltar
+
+Pesquisar CEP inválido: ${CEP}
+    Input Text                        endereco                ${CEP}
+    Click Button                      btn_pesquisar
+
+Conferir mensagem ${RESULTADO-ESPERADO}
+    ${RESULTADO}      Get Text        xpath://*[@id="mensagem-resultado"]
+    Should Be True    ${RESULTADO-ESPERADO}  ${RESULTADO}

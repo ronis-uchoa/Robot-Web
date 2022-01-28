@@ -13,4 +13,5 @@ CT 01 - Usando o Dropdown no site dos correios
     Conferir Bairro/Distrito: "Cidade Universitária"
     Conferir Localidade/UF: "Juazeiro do Norte/CE"
     Conferir CEP: "63048-200"
-    
+    Pesquisar CEP inválido: "99.666-254"
+    Conferir mensagem "Não há dados a serem exibidos"
