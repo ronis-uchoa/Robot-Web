@@ -1,0 +1,10 @@
+1643745164277	geckodriver	INFO	Listening on 127.0.0.1:50531
+1643745167390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50532" "-no-remote" "-profile" "C:\\Users\\RONIS\\AppData\\Local\\Temp\\rust_mozprofilelz1e9A"
+1643745167942	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RONIS\\AppData\\Local\\Temp\\rust_mozprofilelz1e9A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50532/devtools/browser/4ec4492f-617f-4f9c-ad97-6aca311dd251
+1643745171657	Marionette	INFO	Listening on port 50539
+1643745171735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://automationpratice.com.br"

@@ -1,0 +1,21 @@
+1643757556664	geckodriver	INFO	Listening on 127.0.0.1:52826
+1643757559799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52827" "-no-remote" "-profile" "C:\\Users\\RONIS\\AppData\\Local\\Temp\\rust_mozprofilegY3Qjp"
+1643757560282	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RONIS\\AppData\\Local\\Temp\\rust_mozprofilegY3Qjp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52827/devtools/browser/0144043a-39c3-41a7-b570-7bc0053fc781
+1643757563730	Marionette	INFO	Listening on port 52833
+1643757564009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://automationpratice.com.br"
+JavaScript error: http://automationpratice.com.br/static/js/1.eed8ff43.chunk.js, line 1: TypeError: c is null
+1643757584940	Marionette	INFO	Stopped listening on port 52833
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0147,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0147,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0147,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+

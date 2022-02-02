@@ -1,0 +1,11 @@
+1643750152171	geckodriver	INFO	Listening on 127.0.0.1:64616
+1643750155320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64617" "-no-remote" "-profile" "C:\\Users\\RONIS\\AppData\\Local\\Temp\\rust_mozprofileeIvkXm"
+1643750156345	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RONIS\\AppData\\Local\\Temp\\rust_mozprofileeIvkXm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64617/devtools/browser/f0979f3f-0efd-4153-80fd-847976d83f10
+1643750160037	Marionette	INFO	Listening on port 64624
+1643750160141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643750160230	Marionette	INFO	Stopped listening on port 64624
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
